@@ -10447,7 +10447,7 @@ Url: ${nr(t)}`), !0)
         const r = document.getElementById("app");
         r.innerHTML = ZE()
     }
-    const pt = new KE("/");
+    const pt = new KE("/jackbox-eo.github.io");
 
     function Xe(t, e) {
         const r = e != null && e.queryString ? `?${e.queryString}` : "";
