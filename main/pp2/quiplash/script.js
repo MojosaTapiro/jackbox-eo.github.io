@@ -17341,13 +17341,13 @@ const VC = Et.View.extend({
     }),
     Bs = {
         en: {
-            LANGUAGE_NAME: "English",
+            LANGUAGE_NAME: "Esperanto",
             SUPPORTED_LANGUAGES: ["English", "Fran\xE7ais", "Italiano", "Deutsch", "Espa\xF1ol"],
-            SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
-            LANGUAGE: "Language",
-            LOGIN: "Login",
+            SUPPORTED_LOCALES: ["eo", "fr", "it", "de", "es"],
+            LANGUAGE: "Lingvo",
+            LOGIN: "Ensaluti",
             STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-            STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+            STRING_ERROR_SERVER_ROOM_DESTROYED: "Dankon por ludi!"
         },
         fr: {
             LANGUAGE_NAME: "Fran\xE7ais",
