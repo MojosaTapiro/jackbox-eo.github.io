@@ -13107,10 +13107,10 @@ ${n.message}`,
         },
         nH = {
             UGC: {
-                VISIBILITY_CONTROLLER_OFF: "prompts hidden on players\u2019 devices",
-                VISIBILITY_CONTROLLER_ON: "prompts shown on players\u2019 devices",
-                VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
-                VISIBILITY_SCREEN_ON: "prompts shown on game screen"
+                VISIBILITY_CONTROLLER_OFF: "demandoj kaŝataj sur aparatoj de ludantoj",
+                VISIBILITY_CONTROLLER_ON: "demandoj montrataj sur aparatoj de ludantoj",
+                VISIBILITY_SCREEN_OFF: "demandoj kaŝataj sur ludekrano",
+                VISIBILITY_SCREEN_ON: "demandoj montrataj sur ludekrano"
             }
         },
         rH = {
