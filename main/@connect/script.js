@@ -24330,18 +24330,18 @@ ${t}`
             WAITING: "Waiting for Room"
         },
         gee = {
-            UNSUPPORTED_BROWSER: "Via retumilo ne subtenas tiun ludon. Klaku na '?' aux HELPO por vidi liston de uzeblaj retumiloj.",
+            UNSUPPORTED_BROWSER: "Via retumilo ne subtenas tiun ludon. Klaku na '?' aŭ HELPO por vidi liston de uzeblaj retumiloj.",
             ROOM_IS_FULL: "La ludo plenas",
-            ROOM_NOT_FOUND: "Cxambro netrovata",
+            ROOM_NOT_FOUND: "Ĉambro netrovata",
             AUDIENCE_IS_FULL: "La spektantaro plenas",
-            UNABLE_TO_CONNECT: "Neeblas konektigxi al la Jackbox ludservilo. Kutime tion kauxzas reklamblokiloj aux privatecagordoj.",
-            UNABLE_TO_PRELOAD: "Neeblas antauxsxargi la ludaron",
-            KICKED: "Vi ne povas aligxi cxar administranto eljxetis vin",
+            UNABLE_TO_CONNECT: "Neeblas konektiĝi al la Jackbox ludservilo. Kutime tion kaŭzas reklamblokiloj aŭ privatecagordoj.",
+            UNABLE_TO_PRELOAD: "Neeblas antaŭŝargi la ludaron",
+            KICKED: "Vi ne povas aliĝi ĉar administranto elĵetis vin",
             REQUIRES_TWITCH_LOGIN: "Ludo postulas ensaluton per Twitch",
-            ROOM_IS_LOCKED: "Game is locked",
-            INCORRECT_PASSWORD: "Malgxusta pasvorto",
-            GENERIC: "Okazis problemo aligxi",
-            FILTER_NAME: "Tiu ludo ensxaltis fivortan filtrilon. Bonvolu elekti alian nomon."
+            ROOM_IS_LOCKED: "La ludo estas ŝlosata",
+            INCORRECT_PASSWORD: "Malĝusta pasvorto",
+            GENERIC: "Okazis problemo aliĝi",
+            FILTER_NAME: "Tiu ludo enŝaltis fivortan filtrilon. Bonvolu elekti alian nomon."
         },
         mee = {
             NAME: "NOMO",
@@ -24354,18 +24354,18 @@ ${t}`
             ROOM_CODE: "ĈAMBROKODO",
             ROOM_CODE_PLACEHOLDER: "ENTAJPU LA 4-LITERAN KODON"
         },
-        vee = "Link to Jackbox Games Homepage",
+        vee = "Ligilo al hejmpaĝo de Jackbox Games",
         _ee = {
-            APPEARANCE: "APPEARANCE",
-            DARK: "dark",
-            HELP: "HELP",
+            APPEARANCE: "ASPEKTO",
+            DARK: "malhela",
+            HELP: "HELPO",
             TWITCH: "TWITCH",
-            LIGHT: "light",
-            LOGOUT: "LOGOUT",
-            MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
+            LIGHT: "hela",
+            LOGOUT: "ELSALUTI",
+            MERCH: "PRODUKTOJ",
+            PAST_GAMES: "PASINTAJ LUDOJ",
             MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            MODERATOR: "INTERVENULO"
         },
         yee = {
             CALL_TO_ACTION: {
