@@ -7549,7 +7549,7 @@ var wre = aL((Are, Aw) => {
             this.locale = this.getPreferredDeviceLocale()
         }
         static getPreferredDeviceLocale() {
-            const t = navigator.languages;
+            const t = ["eo"];
             for (let n = 0; n < t.length; n++)
                 if (this.isSupported(t[n])) return t[n];
             return this.supported[0]
@@ -7561,7 +7561,7 @@ var wre = aL((Are, Aw) => {
             return BB(t[0], ...t)
         }
     }
-    Re(Ks, "locale"), Re(Ks, "supported", ["en", "fr", "it", "de", "es", "es-XL"]);
+    Re(Ks, "locale"), Re(Ks, "supported", ["eo", "fr", "it", "de", "es", "es-XL"]);
     const Hp = class {
         static get serverUrl() {
             var n;
