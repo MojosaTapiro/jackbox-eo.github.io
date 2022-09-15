@@ -7582,14 +7582,14 @@ var wre = aL((Are, Aw) => {
         static htmlEscape(t) {
             return String(t).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
         }
-        
+        /*
         static sanitize(t) {
             const n = this.sanitizeInput(t).replace(/'/g, "\u2019");
             return this.htmlEscape(n).trim()
         }
         static sanitizeName(t) {
             return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
-        }/*
+        }
         static sanitizeInput(t) {
             return t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
         }
