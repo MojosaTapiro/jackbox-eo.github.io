@@ -7473,7 +7473,7 @@ var Qne = n$((tie, O1) => {
             this.locale = this.getPreferredDeviceLocale()
         }
         static getPreferredDeviceLocale() {
-            const t = navigator.languages;
+            const t = ["eo"];
             for (let r = 0; r < t.length; r++)
                 if (this.isSupported(t[r])) return t[r];
             return this.supported[0]
