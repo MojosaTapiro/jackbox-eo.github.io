@@ -24369,29 +24369,28 @@ ${t}`
         },
         yee = {
             CALL_TO_ACTION: {
-                SHOP: "VIEW GAME & SHOP",
-                VIEW: "VIEW THIS GAME"
+                SHOP: "VIDI LUDON & VENDEJON",
+                VIEW: "SPEKTI TIUN LUDON"
             },
-            NEW: "NEW",
-            PLAYED_ON: "PLAYED ON",
+            NEW: "NOVA",
+            PLAYED_ON: "LUDATA SUR",
             REMOVE: {
-                CONFIRM: "Are you sure?",
-                DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-                MANAGE: "Remove Game?",
-                TITLE: "Are You Sure?"
+                CONFIRM: "Ĉu vi certas?",
+                DESCRIPTION: `Vi forigos tiun ludon de la listo de viaj pasintaj ludoj.`,
+                MANAGE: "Ĉu forigi la ludon?",
+                TITLE: "Ĉu vi certas?"
             }
         },
         Eee = {
-            EMPTY: "No Past Games Yet",
-            MANAGE: "MANAGE",
-            TITLE: "YOUR PAST GAMES"
+            EMPTY: "Gxis nun ne videblas pasintaj ludoj",
+            MANAGE: "ADMINISTRI",
+            TITLE: "VIAJ PASINTAJ LUDOJ"
         },
         bee = {
-            TITLE: "RECENT GAMES",
+            TITLE: "LASTATEMPAJ LUDSESIOJ",
             VIEW_ALL: {
-                BUTTON: "VIEW ALL",
-                LINK: "VIEW ALL PAST GAMES"
+                BUTTON: "VIDI CXIUJN",
+                LINK: "VIDU CXIUJN PASINTAJN LUDOJN"
             }
         },
         Tee = {
