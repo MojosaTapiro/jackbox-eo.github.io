@@ -7473,9 +7473,9 @@ var Qne = n$((tie, O1) => {
             this.locale = this.getPreferredDeviceLocale()
         }
         static getPreferredDeviceLocale() {
-            const t = ["eo"];
+            const t = navigator.languages;
             for (let r = 0; r < t.length; r++)
-                if (this.isSupported(t[r])) return t[r];
+                if (this.isSupported(t[r])) this.supported[0];
             return this.supported[0]
         }
         static isSupported(t) {
@@ -7485,7 +7485,7 @@ var Qne = n$((tie, O1) => {
             return FB(t[0], ...t)
         }
     }
-    Ee(xs, "locale"), Ee(xs, "supported", ["en", "fr", "it", "de", "es", "es-XL"]);
+    Ee(xs, "locale"), Ee(xs, "supported", ["eo", "fr", "it", "de", "es", "es-XL"]);
     const Bp = class {
         static get serverUrl() {
             var r;
