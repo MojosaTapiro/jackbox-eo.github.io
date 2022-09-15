@@ -24382,15 +24382,15 @@ ${t}`
             }
         },
         Eee = {
-            EMPTY: "Gxis nun ne videblas pasintaj ludoj",
+            EMPTY: "ĝis nun ne videblas pasintaj ludoj",
             MANAGE: "ADMINISTRI",
             TITLE: "VIAJ PASINTAJ LUDOJ"
         },
         bee = {
             TITLE: "LASTATEMPAJ LUDSESIOJ",
             VIEW_ALL: {
-                BUTTON: "VIDI CXIUJN",
-                LINK: "VIDU CXIUJN PASINTAJN LUDOJN"
+                BUTTON: "VIDI ĈIUJN",
+                LINK: "VIDU ĈIUJN PASINTAJN LUDOJN"
             }
         },
         Tee = {
