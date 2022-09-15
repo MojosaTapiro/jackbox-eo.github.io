@@ -24394,21 +24394,21 @@ ${t}`
             }
         },
         Tee = {
-            GAME_FULL: "Game is full",
-            GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            GAME_FULL: "La ludo plenas",
+            GAME_STARTED: "La ludo komenciĝis",
+            ROOM_NOT_FOUND: "Ĉambro ne trovata"
         },
         See = {
-            GAME_FULL: "GAME IS FULL",
-            GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            GAME_FULL: "LA LUDO PLENAS",
+            GAME_STARTED: "LA LUDO KOMENCIĜIS",
+            JOIN_AUDIENCE: "ALIĜU KIEL SPEKTANTO",
+            RECONNECT: "REKONEKTIĜI",
+            TWITCH_LOGIN: "ENSALUTI PER TWITCH"
         },
         Oee = {
-            CAMERA: "[b]HEADS UP:[/b] We\u2019re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-            STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            CAMERA: "[b]ATENTIGO:[/b] Ni ne trovas kameraon, sed vi povas kunludi sen foto. Se ŝajnas al vi erara, vi povas provi aliĝi per alia retumilo.",
+            STYLE: "[b]ATENTIGO:[/b] Via retumilo ŝajnas malnova, kaj verŝajne okazos problemetoj dum ludado.",
+            TOS: "Per klaki {submit}, vi konsentas al niaj [tos]Uzokondiĉoj[/tos]"
         },
         wee = {
             BRANCH: pee,
