@@ -7582,6 +7582,7 @@ var wre = aL((Are, Aw) => {
         static htmlEscape(t) {
             return String(t).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
         }
+        /*
         static sanitize(t) {
             const n = this.sanitizeInput(t).replace(/'/g, "\u2019");
             return this.htmlEscape(n).trim()
@@ -7594,7 +7595,7 @@ var wre = aL((Are, Aw) => {
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
-        }
+        }*/
         static safeText(t) {
             const n = document.createElement("div");
             return n.textContent = t, n.innerHTML

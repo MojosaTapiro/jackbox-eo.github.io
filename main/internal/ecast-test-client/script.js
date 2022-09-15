@@ -8014,7 +8014,7 @@ class Sa {
         this.locale = this.getPreferredDeviceLocale()
     }
     static getPreferredDeviceLocale() {
-        const e = ["eo"];
+        const e = navigator.languages;
         for (let n = 0; n < e.length; n++)
             if (this.isSupported(e[n])) return e[n];
         return this.supported[0]
