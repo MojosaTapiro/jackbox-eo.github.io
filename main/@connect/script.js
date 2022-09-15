@@ -13114,90 +13114,90 @@ ${n.message}`,
             }
         },
         rH = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Vi malkonektiĝis.",
+            DRAWING_NOTHING: "Vi devas desegni ion!",
+            PLAYER_KICKED: "Ludadministranto elĵetis vin de la ludo.",
+            ROOM_DESTROYED: "Dankon por ludi!",
+            ROOM_DISCONNECTED: "Malkonektita",
+            TEXT_NAUGHTY: "Vi ne povas tion skribi. Havu respekton por la aliaj ludantoj.",
+            TEXT_NOTHING: "Vi ne povas skribi nenion!",
+            TITLE: "Eraro"
         },
-        iH = "LOADING",
+        iH = "ŜARGANTA",
         sH = {
-            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "x | {count} de {maxPlayers} aliĝis | {count} de {maxPlayers} ludantoj aliĝis",
+            PLAYERS_NEEDED: "x | {count} ludantoj bezonataj | Vi bezonas {count} ludantojn por komenci la ludon",
+            WAITING_FOR_VIP: "Atendante ke {name} komencas la ludon",
+            WAITING_FOR_GAMEPAD: "Atendante ke la ludo komenciĝas",
+            GAME_STARTING: "La ludo komenciĝas",
+            BUTTON_START: "Klaku por komenci",
+            BUTTON_CANCEL: "Klaku por nuligi"
         },
         aH = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Viziti la galerion",
+            PLAY_AGAIN: "Ĉu denove?",
+            BUTTON_SAME_PLAYERS: "Samaj ludantoj",
+            BUTTON_NEW_PLAYERS: "Novaj ludantoj"
         },
         oH = {
-            AND: "AND",
-            OR: "OR"
+            AND: "KAJ",
+            OR: "AŬ"
         },
         cH = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "Salti",
+            BUTTON_NEXT: "Sekva",
+            BUTTON_DONE: "EK!"
         },
         lH = {
-            NAME: "AUDIENCE"
+            NAME: "SPEKTANTARO"
         },
         uH = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Denunci episodon",
+            EPISODE_UNLOAD: "Malŝargi episodon",
+            EPISODE_VIEW_AUTHOR: "Vidi la aŭtoron",
+            EPISODES_LOAD: "Trovu episodon per ĝia ID:",
+            EPISODES_MENU: "Episodaro",
+            EPISODES_SELECT: "Aŭ selektu episodon:",
+            EPISODES_WARNING: "Atentigo: enhavo aldonita de ludantoj povas esti fi-aĉa",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: "por komenci, entajpu nomon por la episodo kiu enhavos ĉiujn viajn demandojn kaj klaku krei.",
+                LOAD: "ĉu novkrei aŭ ŝargi?",
+                PUBLISH: "publikigu vian episodon",
+                TITLE: "nomu vian episodon",
+                TOGGLE_VISIBILITY: "tuŝetu por kaŝi/malkaŝi demandon",
+                WRITE: "skribu viajn demandojn"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Ĉu vi certas ke vi volas forigi la episodon?",
+                TOS: "Per kunhavigi enhavojn, vi konsentas kun niaj [tos]Uzokondiĉoj[/tos]",
+                TOS_AGREE: "konsenti kaj kunhavigi"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "reen al episodoj",
+            BACK_TO_MENU: "reen al menuo",
+            CREATE_NEW_EPISODE: "krei novan episodon",
+            PREVIOUS_EPISODES: "antaŭaj episodoj",
+            PROMPT_ADD: "aldoni demandon",
+            PROMPT_PLACEHOLDER: "entajpu demandon",
+            PROMPTS_COUNT_HIDDEN: "({count} kaŝitaj)",
+            TITLE_PLACEHOLDER: "entajpu titolon"
         },
         fH = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Vi sukcese aligis vian konton al la Jackbox Audience Kit Twitch Extension.",
+                WARNING: "TIU ĈAMBRO NE PERMESAS LA SPEKTANTO-AGORDOJN"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "REKONEKTIĜINTA",
+                SUBTEXT: "Amuziĝu!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "KONEKTO INTERROMPATA",
+                    SUBTEXT: "Provas rekonekti ({attempt} de 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "LUDKONEKTO INTERROMPATA",
+                    SUBTEXT: "Bonvolu atendi dum ni provas rekonektiĝi"
                 }
             }
         },
