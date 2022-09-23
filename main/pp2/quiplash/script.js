@@ -17238,9 +17238,9 @@ const VC = Et.View.extend({
             })
         },
         activateContentIdFromInput(t) {
-            (t.getSanitizedValue().replace(/[^A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ]/gi, "").toUpperCase() || "").length < 7 || (this.triggerMethod("client:message", {
+            (t.getSanitizedValue().replace(/[^A-Za-z]/gi, "").toUpperCase() || "").length < 7 || (this.triggerMethod("client:message", {
                 activateContentId: !0,
-                contentId: t.getSanitizedValue().replace(/[^A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ]/gi, "").toUpperCase()
+                contentId: t.getSanitizedValue().replace(/[^A-Za-z]/gi, "").toUpperCase()
             }), kt.close())
         },
         onChildviewChildviewCharacterClick(t) {
