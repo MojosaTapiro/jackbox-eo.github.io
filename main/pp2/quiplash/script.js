@@ -5595,7 +5595,7 @@ function gh() {
                 }, {})
             },
             bt = function(o, C) {
-                return o.replace(/@ui\.[a-zA-ZĈĜĤĴŜŬĉĝĥĵŝŭ-_$0-9]*/g, function(A) {
+                return o.replace(/@ui\.[a-zA-Z-_$0-9]*/g, function(A) {
                     return C[A.slice(4)]
                 })
             },
