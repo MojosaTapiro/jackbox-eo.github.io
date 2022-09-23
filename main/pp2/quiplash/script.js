@@ -12902,7 +12902,7 @@ var sC = {};
                 };
                 if (m.find("*").remove(), e.isString(d)) {
                     var lt = window;
-                    d.indexOf("this.") === 0 && (lt = this), d = d.replace(/^[a-zĉĝĥĵŝŭ]*\.(.+)$/, "$1"), se = f(lt, d)
+                    d.indexOf("this.") === 0 && (lt = this), d = d.replace(/^[a-z]*\.(.+)$/, "$1"), se = f(lt, d)
                 } else e.isFunction(d) ? se = v.call(this, d, m, ae) : se = d;
                 if (se instanceof n.Collection) {
                     var Be = se,
