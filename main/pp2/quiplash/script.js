@@ -20797,8 +20797,8 @@ const Bx = `<div id="content-region" class="content"></div>
     t.mask = {
         definitions: {
             9: "[0-9]",
-            a: "[A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ]",
-            "*": "[A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ0-9]"
+            a: "[A-Za-z]",
+            "*": "[A-Za-z0-9]"
         },
         autoclear: !0,
         dataName: "rawMaskFn",
