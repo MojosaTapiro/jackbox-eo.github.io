@@ -2749,7 +2749,7 @@ var Na = {
                 return this.pushStack(w)
             }
         });
-        var wi = new RegExp("^(" + ct + ")(?!px)[a-zĉĝĥĵŝŭ%]+$", "i"),
+        var wi = new RegExp("^(" + ct + ")(?!px)[a-z%]+$", "i"),
             zn = function(r) {
                 var s = r.ownerDocument.defaultView;
                 return (!s || !s.opener) && (s = e), s.getComputedStyle(r)
