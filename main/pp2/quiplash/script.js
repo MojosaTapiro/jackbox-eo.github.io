@@ -2200,7 +2200,7 @@ var Na = {
             }
         });
         var ct = /[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,
-            yt = new RegExp("^(?:([+-])=|)(" + ct + ")([a-zĉĝĥĵŝŭ%]*)$", "i"),
+            yt = new RegExp("^(?:([+-])=|)(" + ct + ")([a-z%]*)$", "i"),
             bt = ["Top", "Right", "Bottom", "Left"],
             Jt = P.documentElement,
             Je = function(r) {
