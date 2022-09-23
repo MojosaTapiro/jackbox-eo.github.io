@@ -2260,7 +2260,7 @@ var Na = {
             }
         });
         var fe = /^(?:checkbox|radio)$/i,
-            pe = /<([a-zĉĝĥĵŝŭ][^\/\0>\x20\t\r\n\f]*)/i,
+            pe = /<([a-z][^\/\0>\x20\t\r\n\f]*)/i,
             Ne = /^$|^module$|\/(?:java|ecma)script/i;
         (function() {
             var r = P.createDocumentFragment(),
