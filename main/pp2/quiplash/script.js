@@ -21246,7 +21246,7 @@ const Hx = VC.extend({
         }), !1
     },
     sanitize(t) {
-        return t.replace(/[^A-ZĈĜĤĴŜŬ0-9\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,:]/gi, "").replace(/'/g, "\u2019").trim()
+        return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,:]/gi, "").replace(/'/g, "\u2019").trim()
     }
 });
 jx({
