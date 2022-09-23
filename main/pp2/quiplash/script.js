@@ -1681,7 +1681,7 @@ var Na = {
         function J(r, s) {
             return r.nodeName && r.nodeName.toLowerCase() === s.toLowerCase()
         }
-        var Fe = /^<([a-z][^\/\0>:\x20\t\r\n\f]*)[\x20\t\r\n\f]*\/?>(?:<\/\1>|)$/i;
+        var Fe = /^<([a-zĉĝĥĵŝŭ][^\/\0>:\x20\t\r\n\f]*)[\x20\t\r\n\f]*\/?>(?:<\/\1>|)$/i;
 
         function G(r, s, u) {
             return re(s) ? d.grep(r, function(p, w) {
@@ -2035,7 +2035,7 @@ var Na = {
                 return w ? r : Z ? s.call(r) : z ? s(r[0], u) : x
             },
             _ = /^-ms-/,
-            O = /-([a-z])/g;
+            O = /-([a-zĉĝĥĵŝŭ])/g;
 
         function M(r, s) {
             return s.toUpperCase()
@@ -2088,7 +2088,7 @@ var Na = {
         var he = new ke,
             De = new ke,
             Le = /^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,
-            nt = /[A-Z]/g;
+            nt = /[A-ZĈĜĤĴŜŬ]/g;
 
         function Ct(r) {
             return r === "true" ? !0 : r === "false" ? !1 : r === "null" ? null : r === +r + "" ? +r : Le.test(r) ? JSON.parse(r) : r
@@ -2200,7 +2200,7 @@ var Na = {
             }
         });
         var ct = /[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,
-            yt = new RegExp("^(?:([+-])=|)(" + ct + ")([a-z%]*)$", "i"),
+            yt = new RegExp("^(?:([+-])=|)(" + ct + ")([a-zĉĝĥĵŝŭ%]*)$", "i"),
             bt = ["Top", "Right", "Bottom", "Left"],
             Jt = P.documentElement,
             Je = function(r) {
@@ -2260,7 +2260,7 @@ var Na = {
             }
         });
         var fe = /^(?:checkbox|radio)$/i,
-            pe = /<([a-z][^\/\0>\x20\t\r\n\f]*)/i,
+            pe = /<([a-zĉĝĥĵŝŭ][^\/\0>\x20\t\r\n\f]*)/i,
             Ne = /^$|^module$|\/(?:java|ecma)script/i;
         (function() {
             var r = P.createDocumentFragment(),
@@ -2749,7 +2749,7 @@ var Na = {
                 return this.pushStack(w)
             }
         });
-        var wi = new RegExp("^(" + ct + ")(?!px)[a-z%]+$", "i"),
+        var wi = new RegExp("^(" + ct + ")(?!px)[a-zĉĝĥĵŝŭ%]+$", "i"),
             zn = function(r) {
                 var s = r.ownerDocument.defaultView;
                 return (!s || !s.opener) && (s = e), s.getComputedStyle(r)
@@ -5595,7 +5595,7 @@ function gh() {
                 }, {})
             },
             bt = function(o, C) {
-                return o.replace(/@ui\.[a-zA-Z-_$0-9]*/g, function(A) {
+                return o.replace(/@ui\.[a-zA-ZĈĜĤĴŜŬĉĝĥĵŝŭ-_$0-9]*/g, function(A) {
                     return C[A.slice(4)]
                 })
             },
@@ -8326,7 +8326,7 @@ var Ea = {
                 };
 
             function B(G) {
-                if (typeof G != "string" && (G = String(G)), /[^a-z0-9\-#$%&'*+.^_`|~]/i.test(G)) throw new TypeError("Invalid character in header field name");
+                if (typeof G != "string" && (G = String(G)), /[^a-zĉĝĥĵŝŭ0-9\-#$%&'*+.^_`|~]/i.test(G)) throw new TypeError("Invalid character in header field name");
                 return G.toLowerCase()
             }
 
@@ -11674,8 +11674,8 @@ var ic = {
                 stringify: B,
                 parse: Y
             },
-            K = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//,
-            re = /^([a-z][a-z0-9.+-]*:)?(\/\/)?([\\/]+)?([\S\s]*)/i,
+            K = /^[A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ][A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ0-9+-.]*:\/\//,
+            re = /^([a-zĉĝĥĵŝŭ][a-zĉĝĥĵŝŭ0-9.+-]*:)?(\/\/)?([\\/]+)?([\S\s]*)/i,
             m = "[\\x09\\x0A\\x0B\\x0C\\x0D\\x20\\xA0\\u1680\\u180E\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\\u2028\\u2029\\uFEFF]",
             P = new RegExp("^" + m + "+");
 
@@ -12902,7 +12902,7 @@ var sC = {};
                 };
                 if (m.find("*").remove(), e.isString(d)) {
                     var lt = window;
-                    d.indexOf("this.") === 0 && (lt = this), d = d.replace(/^[a-z]*\.(.+)$/, "$1"), se = f(lt, d)
+                    d.indexOf("this.") === 0 && (lt = this), d = d.replace(/^[a-zĉĝĥĵŝŭ]*\.(.+)$/, "$1"), se = f(lt, d)
                 } else e.isFunction(d) ? se = v.call(this, d, m, ae) : se = d;
                 if (se instanceof n.Collection) {
                     var Be = se,
@@ -20797,8 +20797,8 @@ const Bx = `<div id="content-region" class="content"></div>
     t.mask = {
         definitions: {
             9: "[0-9]",
-            a: "[A-Za-z]",
-            "*": "[A-Za-z0-9]"
+            a: "[A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ]",
+            "*": "[A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ0-9]"
         },
         autoclear: !0,
         dataName: "rawMaskFn",
