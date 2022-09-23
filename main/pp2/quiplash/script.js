@@ -8046,7 +8046,7 @@ const fl = class {
         return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
     }
     static sanitizeInput(e) {
-        return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        return e.replace(/[^ĈĜĤĴŜŬĉĝĥĵŝŭ\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
     }
     static sanitizeEmoji(e) {
         return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -17238,9 +17238,9 @@ const VC = Et.View.extend({
             })
         },
         activateContentIdFromInput(t) {
-            (t.getSanitizedValue().replace(/[^A-Za-z]/gi, "").toUpperCase() || "").length < 7 || (this.triggerMethod("client:message", {
+            (t.getSanitizedValue().replace(/[^A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ]/gi, "").toUpperCase() || "").length < 7 || (this.triggerMethod("client:message", {
                 activateContentId: !0,
-                contentId: t.getSanitizedValue().replace(/[^A-Za-z]/gi, "").toUpperCase()
+                contentId: t.getSanitizedValue().replace(/[^A-Za-zĈĜĤĴŜŬĉĝĥĵŝŭ]/gi, "").toUpperCase()
             }), kt.close())
         },
         onChildviewChildviewCharacterClick(t) {
@@ -21246,7 +21246,7 @@ const Hx = VC.extend({
         }), !1
     },
     sanitize(t) {
-        return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,:]/gi, "").replace(/'/g, "\u2019").trim()
+        return t.replace(/[^A-ZĈĜĤĴŜŬ0-9\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,:]/gi, "").replace(/'/g, "\u2019").trim()
     }
 });
 jx({
