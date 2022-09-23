@@ -2035,7 +2035,7 @@ var Na = {
                 return w ? r : Z ? s.call(r) : z ? s(r[0], u) : x
             },
             _ = /^-ms-/,
-            O = /-([a-z])/g;
+            O = /-([a-zĉĝĥĵŝŭ])/g;
 
         function M(r, s) {
             return s.toUpperCase()
