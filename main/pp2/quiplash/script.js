@@ -8326,7 +8326,7 @@ var Ea = {
                 };
 
             function B(G) {
-                if (typeof G != "string" && (G = String(G)), /[^a-zĉĝĥĵŝŭ0-9\-#$%&'*+.^_`|~]/i.test(G)) throw new TypeError("Invalid character in header field name");
+                if (typeof G != "string" && (G = String(G)), /[^a-z0-9\-#$%&'*+.^_`|~]/i.test(G)) throw new TypeError("Invalid character in header field name");
                 return G.toLowerCase()
             }
 
