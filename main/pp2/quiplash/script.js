@@ -1681,7 +1681,7 @@ var Na = {
         function J(r, s) {
             return r.nodeName && r.nodeName.toLowerCase() === s.toLowerCase()
         }
-        var Fe = /^<([a-zĉĝĥĵŝŭ][^\/\0>:\x20\t\r\n\f]*)[\x20\t\r\n\f]*\/?>(?:<\/\1>|)$/i;
+        var Fe = /^<([a-z][^\/\0>:\x20\t\r\n\f]*)[\x20\t\r\n\f]*\/?>(?:<\/\1>|)$/i;
 
         function G(r, s, u) {
             return re(s) ? d.grep(r, function(p, w) {
