@@ -2088,7 +2088,7 @@ var Na = {
         var he = new ke,
             De = new ke,
             Le = /^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,
-            nt = /[A-ZĈĜĤĴŜŬ]/g;
+            nt = /[A-Z]/g;
 
         function Ct(r) {
             return r === "true" ? !0 : r === "false" ? !1 : r === "null" ? null : r === +r + "" ? +r : Le.test(r) ? JSON.parse(r) : r
