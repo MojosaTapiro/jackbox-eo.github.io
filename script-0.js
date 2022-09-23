@@ -1070,7 +1070,7 @@ var cw = Qo((lw, Fo) => {
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            return e.replace(/[^A-ZĈĜĤĴŜŬĉĝĥĵŝŭ0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
         }
         static sanitizeInput(e) {
             return e.replace(/[^ĈĜĤĴŜŬĉĝĥĵŝŭ\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
